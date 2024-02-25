@@ -6,8 +6,23 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: #fff url(imagens/fundo.png) repeat-x;
 }
+
 header{
     width: 750px;
     margin: 0 auto;
-    border: 1px solid red;
+    color: #fff;
+}
+
+#topo{
+    height: 150px;
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+.log{
+    width: 152px;
+    height: 66px;
+    background: url(imagens/logo.png);
+}
+.titulo{
+    color: transparent;
 }
