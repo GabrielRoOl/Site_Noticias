@@ -11,6 +11,7 @@ header{
     width: 750px;
     margin: 0 auto;
     color: #fff;
+   
 }
 
 #topo{
@@ -22,7 +23,27 @@ header{
     width: 152px;
     height: 66px;
     background: url(imagens/logo.png);
+    text-indent: -3000px;
 }
-.titulo{
-    color: transparent;
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#nav_topo{
+    margin-top: 30px;
+    background-color: #b1033b;
+    float: left;
+}
+#nav_topo li{
+    float: left;
+}
+#nav_topo a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.44em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(imagens/divisor.png) no-repeat left;
 }
