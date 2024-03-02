@@ -47,3 +47,44 @@ ul{
     color: #fff;
     background: url(imagens/divisor.png) no-repeat left;
 }
+
+#nav_topo li .primeiro a{
+    background-color: none;
+}
+
+#nav_topo a:hover{
+    color: #69001d;
+}
+
+body.home #nav_topo a#home,
+body.brasil #nav_topo a#brasil,
+body.internacional #nav_topo a#internacional,
+body.economia #nav_topo a#economia,
+body.saude #nav_topo a#saude,
+body.ciencia #nav_topo a#ciencia,
+body.foto #nav_topo a#foto
+{
+    color: #fff;
+    background: #7a0325;
+
+}
+
+#conteudo{
+    margin-top: 60px;
+    background-color: #f5f5f5;
+}
+
+#conteudo #primario{
+    width: 270px;
+    background-color: blue;
+}
+
+#conteudo #secundario{
+    width: 270px;
+    background-color: green;
+}
+
+#conteudo #lateral{
+    width: 180px;
+    background-color: yellow;
+}
